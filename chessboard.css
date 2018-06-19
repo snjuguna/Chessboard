@@ -1,22 +1,32 @@
 .white {
-	background-color: #FFFFFF;
-	height: 80px;
-	width: 80px;
+	background-color: #EEE8AA;
+	height: 70px;
+	width: 70px;
 	text-align: center;
+	font-size:50px;
+	font-weight: bold;
+	border-collapse: collapse;
 	/*background-image: url('queen.jpg');*/
 }
 .black {
-	background-color: #D4AF37;
-	height: 80px;
-	width: 80px;
+	/*background-color: #D4AF37;*/
+	background-color: #CD853F;
+	height: 70px;
+	width: 70px;
 	text-align: center;
+	font-size:50px;
+	font-weight: bold;
+	border-collapse: collapse;
 }
 body {
 	background-color: green;
+	background-image: url(casino.jpg);
+	background-attachment: fixed;
+    height: 100%; 
 }
-#chessboard {
-	width: 640px;
-    height: 640px;
-    margin: 20px;
-    border: 25px solid #333;
+.board {
+	max-width: 580px;
+	padding: 0;
+	margin: auto;
+	border: 20px solid #000;;
 }
