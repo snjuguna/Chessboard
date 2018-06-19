@@ -1,0 +1,22 @@
+.white {
+	background-color: #FFFFFF;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	/*background-image: url('queen.jpg');*/
+}
+.black {
+	background-color: #D4AF37;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+}
+body {
+	background-color: green;
+}
+#chessboard {
+	width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
